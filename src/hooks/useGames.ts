@@ -17,7 +17,7 @@ export interface Game {
 
 interface FetchGamesResponse {
   count: number;
-  result: Game[];
+  results: Game[];
 }
 
 const useGames = () => {
